@@ -7,6 +7,7 @@ A beginner-friendly collection of Python code notes, syntax reminders, and pract
 ## Table of Contents
 1. [01. Python Intro (`Python Intro/01-python.py`)](#1-python-intro)
 2. [02. Python Output (`Python output/02-python.py`)](#2-python-output)
+3. [03. Python Comments (`Python comment/03-python.py`)](#3-python-comments)
 
 ---
 
@@ -32,3 +33,13 @@ Key concepts covered:
 - **Calculations in Print:** Arithmetic expressions (e.g. `50 + 30`) are evaluated before being printed.
 - **Multiple Arguments with Commas:** `print("Age:", 25)` automatically inserts a space between arguments and seamlessly combines strings with numbers without needing `str()`.
 
+---
+
+## 3. Python Comments
+**File:** [`Python comment/03-python.py`](Python%20comment/03-python.py)
+
+Key concepts covered:
+- **Single-Line Comments:** Any text following a `#` on that line is ignored by Python during execution.
+- **Commenting Out Code:** Adding `#` in front of code stops it from executing without needing to delete it (useful for debugging).
+- **Multi-Line Comments with `#`:** Python has no dedicated multi-line comment token (like `/* ... */`); standard convention is stacking multiple `#` lines.
+- **Multi-Line String as Comments:** Unassigned triple quotes (`"""..."""` or `'''...'''`) are discarded by Python at runtime, making them popular for multi-line notes and docstrings.
